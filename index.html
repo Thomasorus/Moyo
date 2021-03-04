@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moyo SVG</title>
+  <style>
+svg {
+  border:1px solid currentColor;
+}
+body {
+  color:white;
+  background:black;
+  padding:20px;
+}
+  </style>
+</head>
+
+<body>
+
+  <!-- Checks -->
+  <svg height="10" width="10">
+    <defs>
+      <pattern id="pattern-checks" patternUnits="userSpaceOnUse" width="10" height="10">
+        <rect x="0" y="0" width="5" height="5" fill="currentColor" />
+        <rect x="5" y="5" width="5" height="5" fill="currentColor" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#pattern-checks);" height="100" width="100">
+    </rect>
+  </svg>
+
+  <!-- Checks diagonal -->
+  <svg height="10" width="10">
+    <defs>
+      <pattern id="checks-diagonal" patternUnits="userSpaceOnUse" width="10" height="10">
+        <polygon  x="0" y="0" points="5,0 10,5 5,10 0,5" fill="currentColor"/>
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#checks-diagonal);" height="100" width="100">
+    </rect>
+  </svg>
+
+  <!-- Grid -->
+  <svg height="10" width="10">
+    <defs>
+      <pattern id="grid" patternUnits="userSpaceOnUse" width="4" height="4">
+        <rect x="0" y="2" width="4" height="1" fill="currentColor" />
+        <rect x="2" y="0" width="1" height="4" fill="currentColor" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#grid);" height="100" width="100">
+    </rect>
+  </svg>
+
+
+  <!-- Grid Medium -->
+  <svg height="10" width="10">
+    <defs>
+      <pattern id="grid-medium" patternUnits="userSpaceOnUse" width="10" height="10">
+        <rect x="0" y="5" width="10" height="1" fill="currentColor" />
+        <rect x="5" y="0" width="1" height="10" fill="currentColor" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#grid-medium);" height="100" width="100">
+    </rect>
+  </svg>
+
+
+  <!-- Cross dots -->
+  <svg height="10" width="10">
+    <defs>
+      <pattern id="cross-dots" patternUnits="userSpaceOnUse" width="4" height="4">
+        <rect x="0" y="0" width="2" height="2" fill="currentColor" />
+        <rect x="2" y="2" width="2" height="2" fill="currentColor" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#cross-dots);" height="100" width="100">
+    </rect>
+  </svg>
+
+  <!-- Vertical lines -->
+  <svg height="10" width="10">
+    <defs>
+      <pattern id="vertical-lines" patternUnits="userSpaceOnUse" width="4" height="4">
+        <rect x="2" y="0" width="1" height="4" fill="currentColor" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#vertical-lines);" height="100" width="100">
+    </rect>
+  </svg>
+
+   <!-- Horizontal lines -->
+   <svg height="10" width="10">
+    <defs>
+      <pattern id="horizontal-lines" patternUnits="userSpaceOnUse" width="4" height="4">
+        <rect x="0" y="2" width="4" height="1" fill="currentColor" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#horizontal-lines);" height="100" width="100">
+    </rect>
+  </svg>
+
+  <!-- Diagonal lines left-->
+  <svg height="10" width="10">
+    <defs>
+      <pattern id="diagonal-lines-left" patternUnits="userSpaceOnUse" width="10" height="10">
+        <rect width="10" height="10" fill="none"/>
+        <path d="M1,11 l-2,-2 M-1,4 l7,7 M-1,-1 l12,12 M4,-1 l12,12 M9,-1 l3,3" stroke="currentColor" stroke-width="1"/>
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#diagonal-lines-left);" height="100" width="100">
+    </rect>
+  </svg>
+
+
+   <!-- Diagonal lines right-->
+   <svg height="10" width="10">
+    <defs>
+      <pattern id="diagonal-lines-right" patternUnits="userSpaceOnUse" width="10" height="10">
+        <rect width="10" height="10" fill="none"/>
+        <path d="M-1,1 l2,-2 M-1,6 l7,-7 M0,10 l11,-11 M4,11 l8,-8 M9,11 l2,-2" stroke="currentColor" stroke-width="1"/>
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#diagonal-lines-right);" height="100" width="100">
+    </rect>
+  </svg>
+
+
+
+   <!-- Vertical stripes -->
+   <svg height="10" width="10">
+    <defs>
+      <pattern id="vertical-stripes" patternUnits="userSpaceOnUse" width="8" height="8">
+        <rect x="4" y="0" width="4" height="8" fill="currentColor" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#vertical-stripes);" height="100" width="100">
+    </rect>
+  </svg>
+
+   <!-- Horizontal stripes -->
+   <svg height="10" width="10">
+    <defs>
+      <pattern id="horizontal-stripes" patternUnits="userSpaceOnUse" width="8" height="8">
+        <rect x="0" y="4" width="8" height="4" fill="currentColor" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#horizontal-stripes);" height="100" width="100">
+    </rect>
+  </svg>
+
+
+    <!-- Diagonal stripes left-->
+    <svg height="10" width="10">
+      <defs>
+        <pattern id="diagonal-stripes-left" patternUnits="userSpaceOnUse" width="10" height="10">
+          <rect width="10" height="10" fill="none"/>
+          <path d="M1,11 l-2,-2 M-1,-1 l12,12 M9,-1 l3,3" stroke="currentColor" stroke-width="3"/>
+        </pattern>
+      </defs>
+    </svg>
+    <svg height="100" width="100">
+      <rect style="fill: url(#diagonal-stripes-left);" height="100" width="100">
+      </rect>
+    </svg>
+  
+  
+     <!-- Diagonal stripes right-->
+     <svg height="10" width="10">
+      <defs>
+        <pattern id="diagonal-stripes-right" patternUnits="userSpaceOnUse" width="10" height="10">
+          <rect width="10" height="10" fill="none"/>
+          <path d="M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2" stroke="currentColor" stroke-width="3"/>
+        </pattern>
+      </defs>
+    </svg>
+    <svg height="100" width="100">
+      <rect style="fill: url(#diagonal-stripes-right);" height="100" width="100">
+      </rect>
+    </svg>
+
+
+     <!-- Double Diagonal stripes-->
+     <svg height="10" width="10">
+      <defs>
+        <pattern id="double-diagonal-stripes" patternUnits="userSpaceOnUse" width="10" height="10">
+          <rect width="10" height="10" fill="none"/>
+          <path d="M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2" stroke="gray" stroke-width="3"/>
+          <path d="M1,11 l-2,-2 M-1,-1 l12,12 M9,-1 l3,3" stroke="currentColor" stroke-width="3"/>
+        </pattern>
+      </defs>
+    </svg>
+    <svg height="100" width="100">
+      <rect style="fill: url(#double-diagonal-stripes);" height="100" width="100">
+      </rect>
+    </svg>
+  
+
+</body>
+
+</html>
