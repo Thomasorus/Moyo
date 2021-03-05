@@ -7,21 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moyo SVG</title>
   <style>
-svg {
-  border:1px solid currentColor;
-}
-body {
-  color:white;
-  background:black;
-  padding:20px;
-}
+    svg {
+      border: 1px solid currentColor;
+    }
+
+    body {
+      color: white;
+      background: black;
+      padding: 20px;
+    }
   </style>
 </head>
 
 <body>
 
   <!-- Checks -->
-  <svg height="10" width="10">
+  <svg height="0" width="0">
     <defs>
       <pattern id="pattern-checks" patternUnits="userSpaceOnUse" width="10" height="10">
         <rect x="0" y="0" width="5" height="5" fill="currentColor" />
@@ -35,10 +36,10 @@ body {
   </svg>
 
   <!-- Checks diagonal -->
-  <svg height="10" width="10">
+  <svg height="0" width="0">
     <defs>
       <pattern id="checks-diagonal" patternUnits="userSpaceOnUse" width="10" height="10">
-        <polygon  x="0" y="0" points="5,0 10,5 5,10 0,5" fill="currentColor"/>
+        <polygon x="0" y="0" points="5,0 10,5 5,10 0,5" fill="currentColor" />
       </pattern>
     </defs>
   </svg>
@@ -48,7 +49,7 @@ body {
   </svg>
 
   <!-- Grid -->
-  <svg height="10" width="10">
+  <svg height="0" width="0">
     <defs>
       <pattern id="grid" patternUnits="userSpaceOnUse" width="4" height="4">
         <rect x="0" y="2" width="4" height="1" fill="currentColor" />
@@ -63,7 +64,7 @@ body {
 
 
   <!-- Grid Medium -->
-  <svg height="10" width="10">
+  <svg height="0" width="0">
     <defs>
       <pattern id="grid-medium" patternUnits="userSpaceOnUse" width="10" height="10">
         <rect x="0" y="5" width="10" height="1" fill="currentColor" />
@@ -78,7 +79,7 @@ body {
 
 
   <!-- Cross dots -->
-  <svg height="10" width="10">
+  <svg height="0" width="0">
     <defs>
       <pattern id="cross-dots" patternUnits="userSpaceOnUse" width="4" height="4">
         <rect x="0" y="0" width="2" height="2" fill="currentColor" />
@@ -92,7 +93,7 @@ body {
   </svg>
 
   <!-- Vertical lines -->
-  <svg height="10" width="10">
+  <svg height="0" width="0">
     <defs>
       <pattern id="vertical-lines" patternUnits="userSpaceOnUse" width="4" height="4">
         <rect x="2" y="0" width="1" height="4" fill="currentColor" />
@@ -104,8 +105,8 @@ body {
     </rect>
   </svg>
 
-   <!-- Horizontal lines -->
-   <svg height="10" width="10">
+  <!-- Horizontal lines -->
+  <svg height="0" width="0">
     <defs>
       <pattern id="horizontal-lines" patternUnits="userSpaceOnUse" width="4" height="4">
         <rect x="0" y="2" width="4" height="1" fill="currentColor" />
@@ -118,11 +119,12 @@ body {
   </svg>
 
   <!-- Diagonal lines left-->
-  <svg height="10" width="10">
+  <svg height="0" width="0">
     <defs>
       <pattern id="diagonal-lines-left" patternUnits="userSpaceOnUse" width="10" height="10">
-        <rect width="10" height="10" fill="none"/>
-        <path d="M1,11 l-2,-2 M-1,4 l7,7 M-1,-1 l12,12 M4,-1 l12,12 M9,-1 l3,3" stroke="currentColor" stroke-width="1"/>
+        <rect width="10" height="10" fill="none" />
+        <path d="M1,11 l-2,-2 M-1,4 l7,7 M-1,-1 l12,12 M4,-1 l12,12 M9,-1 l3,3" stroke="currentColor"
+          stroke-width="1" />
       </pattern>
     </defs>
   </svg>
@@ -132,12 +134,13 @@ body {
   </svg>
 
 
-   <!-- Diagonal lines right-->
-   <svg height="10" width="10">
+  <!-- Diagonal lines right-->
+  <svg height="0" width="0">
     <defs>
       <pattern id="diagonal-lines-right" patternUnits="userSpaceOnUse" width="10" height="10">
-        <rect width="10" height="10" fill="none"/>
-        <path d="M-1,1 l2,-2 M-1,6 l7,-7 M0,10 l11,-11 M4,11 l8,-8 M9,11 l2,-2" stroke="currentColor" stroke-width="1"/>
+        <rect width="10" height="10" fill="none" />
+        <path d="M-1,1 l2,-2 M-1,6 l7,-7 M0,10 l11,-11 M4,11 l8,-8 M9,11 l2,-2" stroke="currentColor"
+          stroke-width="1" />
       </pattern>
     </defs>
   </svg>
@@ -148,8 +151,8 @@ body {
 
 
 
-   <!-- Vertical stripes -->
-   <svg height="10" width="10">
+  <!-- Vertical stripes -->
+  <svg height="0" width="0">
     <defs>
       <pattern id="vertical-stripes" patternUnits="userSpaceOnUse" width="8" height="8">
         <rect x="4" y="0" width="4" height="8" fill="currentColor" />
@@ -161,8 +164,8 @@ body {
     </rect>
   </svg>
 
-   <!-- Horizontal stripes -->
-   <svg height="10" width="10">
+  <!-- Horizontal stripes -->
+  <svg height="0" width="0">
     <defs>
       <pattern id="horizontal-stripes" patternUnits="userSpaceOnUse" width="8" height="8">
         <rect x="0" y="4" width="8" height="4" fill="currentColor" />
@@ -175,51 +178,231 @@ body {
   </svg>
 
 
-    <!-- Diagonal stripes left-->
-    <svg height="10" width="10">
-      <defs>
-        <pattern id="diagonal-stripes-left" patternUnits="userSpaceOnUse" width="10" height="10">
-          <rect width="10" height="10" fill="none"/>
-          <path d="M1,11 l-2,-2 M-1,-1 l12,12 M9,-1 l3,3" stroke="currentColor" stroke-width="3"/>
-        </pattern>
-      </defs>
-    </svg>
-    <svg height="100" width="100">
-      <rect style="fill: url(#diagonal-stripes-left);" height="100" width="100">
-      </rect>
-    </svg>
-  
-  
-     <!-- Diagonal stripes right-->
-     <svg height="10" width="10">
-      <defs>
-        <pattern id="diagonal-stripes-right" patternUnits="userSpaceOnUse" width="10" height="10">
-          <rect width="10" height="10" fill="none"/>
-          <path d="M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2" stroke="currentColor" stroke-width="3"/>
-        </pattern>
-      </defs>
-    </svg>
-    <svg height="100" width="100">
-      <rect style="fill: url(#diagonal-stripes-right);" height="100" width="100">
-      </rect>
-    </svg>
+  <!-- Diagonal stripes left-->
+  <svg height="0" width="0">
+    <defs>
+      <pattern id="diagonal-stripes-left" patternUnits="userSpaceOnUse" width="10" height="10">
+        <rect width="10" height="10" fill="none" />
+        <path d="M1,11 l-2,-2 M-1,-1 l12,12 M9,-1 l3,3" stroke="currentColor" stroke-width="3" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#diagonal-stripes-left);" height="100" width="100">
+    </rect>
+  </svg>
 
 
-     <!-- Double Diagonal stripes-->
-     <svg height="10" width="10">
-      <defs>
-        <pattern id="double-diagonal-stripes" patternUnits="userSpaceOnUse" width="10" height="10">
-          <rect width="10" height="10" fill="none"/>
-          <path d="M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2" stroke="gray" stroke-width="3"/>
-          <path d="M1,11 l-2,-2 M-1,-1 l12,12 M9,-1 l3,3" stroke="currentColor" stroke-width="3"/>
-        </pattern>
-      </defs>
-    </svg>
-    <svg height="100" width="100">
-      <rect style="fill: url(#double-diagonal-stripes);" height="100" width="100">
-      </rect>
-    </svg>
-  
+  <!-- Diagonal stripes right-->
+  <svg height="0" width="0">
+    <defs>
+      <pattern id="diagonal-stripes-right" patternUnits="userSpaceOnUse" width="10" height="10">
+        <rect width="10" height="10" fill="none" />
+        <path d="M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2" stroke="currentColor" stroke-width="3" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#diagonal-stripes-right);" height="100" width="100">
+    </rect>
+  </svg>
+
+
+  <!-- Double Diagonal stripes-->
+  <svg height="0" width="0">
+    <defs>
+      <pattern id="double-diagonal-stripes" patternUnits="userSpaceOnUse" width="10" height="10">
+        <rect width="10" height="10" fill="none" />
+        <path d="M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2" stroke="gray" stroke-width="3" />
+        <path d="M1,11 l-2,-2 M-1,-1 l12,12 M9,-1 l3,3" stroke="currentColor" stroke-width="3" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#double-diagonal-stripes);" height="100" width="100">
+    </rect>
+  </svg>
+
+
+  <!-- zig-zag-->
+  <svg height="0" width="0">
+    <defs>
+      <pattern id="zig-zag" patternUnits="userSpaceOnUse" width="10" height="10">
+        <polygon points="0,0 10,0 5,5" fill="currentColor" />
+        <polygon points="0,5 5,10 0,10" fill="currentColor" />
+        <polygon points="10,5 5,10 10,10" fill="currentColor" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#zig-zag);" height="100" width="100">
+    </rect>
+  </svg>
+
+  <!-- zig-zag 3d-->
+  <svg height="0" width="0">
+    <defs>
+      <pattern id="zig-zag-3d" patternUnits="userSpaceOnUse" width="16" height="16">
+        <rect x="8" y="0" width="8" height="16" fill="grey" />
+        <polygon points="0,0 16,0 8,8" fill="currentColor" />
+        <polygon points="0,8 8,16 0,16" fill="currentColor" />
+        <polygon points="16,8 8,16 16,16" fill="currentColor" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#zig-zag-3d);" height="100" width="100">
+    </rect>
+  </svg>
+
+
+
+  <!-- triangles-->
+  <svg height="0" width="0">
+    <defs>
+      <pattern id="triangles" patternUnits="userSpaceOnUse" width="10" height="10">
+        <polygon x="-1" points="0,0 10,10 0,10" fill="currentColor" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#triangles);" height="100" width="100">
+    </rect>
+  </svg>
+
+
+  <!-- quarter circles-->
+  <svg height="0" width="0">
+    <defs>
+      <pattern id="quarter-circles" patternUnits="userSpaceOnUse" width="10" height="10">
+        <circle cx="11" cy="11" r="10" fill="currentColor" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#quarter-circles);" height="100" width="100">
+    </rect>
+  </svg>
+
+  <!-- stars -->
+
+  <svg height="0" width="0">
+    <defs>
+      <pattern id="stars" patternUnits="userSpaceOnUse" width="10" height="10">
+        <circle cx="5" cy="5" stroke-width="1" r="5" fill="currentCOlor" stroke="currentCOlor" stroke-width="1" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#stars);" height="100" width="100">
+    </rect>
+  </svg>
+
+
+  <!-- seigaiha -->
+
+  <svg height="0" width="0">
+    <defs>
+      <pattern id="seigaiha" patternUnits="userSpaceOnUse" width="48" height="20">
+
+        <circle cx="-4" cy="10" stroke-width="2" r="20" fill="black" stroke="currentCOlor" />
+        <circle cx="-4" cy="10" stroke-width="2" r="16" fill="black" stroke="currentCOlor" />
+        <circle cx="-4" cy="10" stroke-width="2" r="12" fill="black" stroke="currentCOlor" />
+        <circle cx="-4" cy="10" stroke-width="2" r="8" fill="black" stroke="currentCOlor" />
+        <circle cx="-4" cy="10" stroke-width="2" r="4" fill="black" stroke="currentCOlor" />
+
+        <circle cx="44" cy="10" stroke-width="2" r="20" fill="black" stroke="currentCOlor" />
+        <circle cx="44" cy="10" stroke-width="2" r="16" fill="black" stroke="currentCOlor" />
+        <circle cx="44" cy="10" stroke-width="2" r="12" fill="black" stroke="currentCOlor" />
+        <circle cx="44" cy="10" stroke-width="2" r="8" fill="black" stroke="currentCOlor" />
+        <circle cx="44" cy="10" stroke-width="2" r="4" fill="black" stroke="currentCOlor" />
+
+        <circle cx="20" cy="20" stroke-width="2" r="20" fill="black" stroke="currentCOlor" />
+        <circle cx="20" cy="20" stroke-width="2" r="16" fill="black" stroke="currentCOlor" />
+        <circle cx="20" cy="20" stroke-width="2" r="12" fill="black" stroke="currentCOlor" />
+        <circle cx="20" cy="20" stroke-width="2" r="8" fill="black" stroke="currentCOlor" />
+        <circle cx="20" cy="20" stroke-width="2" r="4" fill="black" stroke="currentCOlor" />
+
+        <circle cx="-4" cy="30" stroke-width="2" r="20" fill="black" stroke="currentCOlor" />
+        <circle cx="-4" cy="30" stroke-width="2" r="16" fill="black" stroke="currentCOlor" />
+        <circle cx="-4" cy="30" stroke-width="2" r="12" fill="black" stroke="currentCOlor" />
+        <circle cx="-4" cy="30" stroke-width="2" r="8" fill="black" stroke="currentCOlor" />
+        <circle cx="-4" cy="30" stroke-width="2" r="4" fill="black" stroke="currentCOlor" />
+
+        <circle cx="44" cy="30" stroke-width="2" r="20" fill="black" stroke="currentCOlor" />
+        <circle cx="44" cy="30" stroke-width="2" r="16" fill="black" stroke="currentCOlor" />
+        <circle cx="44" cy="30" stroke-width="2" r="12" fill="black" stroke="currentCOlor" />
+        <circle cx="44" cy="30" stroke-width="2" r="8" fill="black" stroke="currentCOlor" />
+        <circle cx="44" cy="30" stroke-width="2" r="4" fill="black" stroke="currentCOlor" />
+
+        <circle cx="20" cy="40" stroke-width="2" r="20" fill="black" stroke="currentCOlor" />
+        <circle cx="20" cy="40" stroke-width="2" r="16" fill="black" stroke="currentCOlor" />
+        <circle cx="20" cy="40" stroke-width="2" r="12" fill="black" stroke="currentCOlor" />
+        <circle cx="20" cy="40" stroke-width="2" r="8" fill="black" stroke="currentCOlor" />
+        <circle cx="20" cy="40" stroke-width="2" r="4" fill="black" stroke="currentCOlor" />
+
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#seigaiha);" height="100" width="100">
+    </rect>
+  </svg>
+
+
+  <!-- wave -->
+
+  <svg height="0" width="0">
+    <defs>
+      <pattern id="wave" patternUnits="userSpaceOnUse" width="18" height="18">
+        <path fill="none" stroke="currentColor" d="M0,18 C 5,15 5,2 10,5 S 14,18 18,18" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#wave);" height="100" width="100">
+    </rect>
+  </svg>
+
+
+  <!-- yinyang -->
+  <svg height="0" width="0">
+    <defs>
+      <pattern id="yinyang" patternUnits="userSpaceOnUse" width="20" height="20" bacl>
+        <clipPath id="cut-off-left1">
+          <rect x="0" y="0" width="5" height="10" />
+        </clipPath>
+        <clipPath id="cut-off-right1">
+          <rect x="5" y="0" width="5" height="10" />
+        </clipPath>
+        <rect width="20" height="20" fill="grey" />
+        <circle cx="5" cy="5" r="5" fill="white" stroke="none" clip-path="url(#cut-off-left1)" />
+        <circle cx="5" cy="5" r="5" fill="black" stroke="none" clip-path="url(#cut-off-right1)" />
+        <circle cx="5" cy="2.5" r="2.5" fill="white" stroke="none" />
+        <circle cx="5" cy="7.5" r="2.5" fill="black" stroke="none" />
+        <circle cx="5" cy="2.5" r="1" fill="black" stroke="none" />
+        <circle cx="5" cy="7.5" r="1" fill="white" stroke="none" />
+
+        <clipPath id="cut-off-left2">
+          <rect x="10" y="10" width="5" height="10" />
+        </clipPath>
+        <clipPath id="cut-off-right2">
+          <rect x="15" y="10" width="5" height="10" />
+        </clipPath>
+
+        <circle cx="15" cy="15" r="5" fill="white" stroke="none" clip-path="url(#cut-off-left2)" />
+        <circle cx="15" cy="15" r="5" fill="black" stroke="none" clip-path="url(#cut-off-right2)" />
+        <circle cx="15" cy="12.5" r="2.5" fill="white" stroke="none" />
+        <circle cx="15" cy="17.5" r="2.5" fill="black" stroke="none" />
+        <circle cx="15" cy="12.5" r="1" fill="black" stroke="none" />
+        <circle cx="15" cy="17.5" r="1" fill="white" stroke="none" />
+      </pattern>
+    </defs>
+  </svg>
+  <svg height="100" width="100">
+    <rect style="fill: url(#yinyang);" height="100" width="100">
+    </rect>
+  </svg>
 
 </body>
 
