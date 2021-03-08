@@ -1,3 +1,5 @@
+// This files takes patterns inside moyo.mjs and turn them into SVG and CSS files
+
 import * as fs from 'fs'
 import patterns from './moyo.mjs'
 
