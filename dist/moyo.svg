@@ -110,7 +110,7 @@
 <pattern id="wave" patternUnits="userSpaceOnUse" width="18" height="18">
   <path fill="none" stroke="currentColor" d="M0,18 C 5,15 5,2 10,5 S 14,18 18,18" />
 </pattern>
-<pattern id="yinyang" patternUnits="userSpaceOnUse" width="20" height="20" bacl>
+<pattern id="yinyang" patternUnits="userSpaceOnUse" width="20" height="20">
   <clipPath id="cut-off-left1">
     <rect x="0" y="0" width="5" height="10" />
   </clipPath>
