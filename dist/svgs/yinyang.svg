@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+  <clipPath id="cut-off-left1">
+    <rect x="0" y="0" width="5" height="10" />
+  </clipPath>
+  <clipPath id="cut-off-right1">
+    <rect x="5" y="0" width="5" height="10" />
+  </clipPath>
+  <rect width="20" height="20" fill="currentColor" opacity="0.5" />
+  <circle cx="5" cy="5" r="5" fill="white" stroke="none" clip-path="url(#cut-off-left1)" />
+  <circle cx="5" cy="5" r="5" fill="black" stroke="none" clip-path="url(#cut-off-right1)" />
+  <circle cx="5" cy="2.5" r="2.5" fill="white" stroke="none" />
+  <circle cx="5" cy="7.5" r="2.5" fill="black" stroke="none" />
+  <circle cx="5" cy="2.5" r="1" fill="black" stroke="none" />
+  <circle cx="5" cy="7.5" r="1" fill="white" stroke="none" />
+
+  <clipPath id="cut-off-left2">
+    <rect x="10" y="10" width="5" height="10" />
+  </clipPath>
+  <clipPath id="cut-off-right2">
+    <rect x="15" y="10" width="5" height="10" />
+  </clipPath>
+
+  <circle cx="15" cy="15" r="5" fill="white" stroke="none" clip-path="url(#cut-off-left2)" />
+  <circle cx="15" cy="15" r="5" fill="black" stroke="none" clip-path="url(#cut-off-right2)" />
+  <circle cx="15" cy="12.5" r="2.5" fill="white" stroke="none" />
+  <circle cx="15" cy="17.5" r="2.5" fill="black" stroke="none" />
+  <circle cx="15" cy="12.5" r="1" fill="black" stroke="none" />
+  <circle cx="15" cy="17.5" r="1" fill="white" stroke="none" />
+</svg>
