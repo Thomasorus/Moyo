@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10">
+  <rect width="10" height="10" fill="none" />
+  <path d="M1,11 l-2,-2 M-1,4 l7,7 M-1,-1 l12,12 M4,-1 l12,12 M9,-1 l3,3" stroke="currentColor" stroke-width="1" />
+</svg>
