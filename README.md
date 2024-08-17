@@ -24,13 +24,20 @@ For example this SVG will be be a rectangle (`<rect>` tag) of 100 pixels width a
 </svg>
 ```
 
-Almost all SVG patterns come with no colors defined, which means colors will be automatically defined by two CSS rules: the `color` value and the `background` value on your `<body>` element.
+Colors are automatically defined by two CSS rules: the color value of the text (aka currentColor) and the background value on the div containing them (if none, the <body>).
 
-If you change those colors (for themes or dark mode), the patterns colors will change too accordingly.
+Two patterns (seigaiha and yinyang) default to a white background, which can be changed by using a css custom property.
+
+```css
+#seigaiha, #yinyang {
+    --background: red;
+}
+```
+
 
 ## CSS Version
 
-The CSS version uses the SVGs as base64 background images. Just include the classname to your existing html element and the pattern should appear. Please note that since this is a base64 encoding, you cannot change the colors when using the CSS version.
+The CSS version is deprecated, and uses the SVGs as base64 background images. Include the classname to your existing html element and the pattern should appear. Please note that since this is a base64 encoding, you cannot change the colors when using the CSS version.
 
 ## License
 
